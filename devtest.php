@@ -206,7 +206,7 @@ function buildPatientJson(Patient $patient)
  */
 function run()
 {
-    $api = 'http://portal.glpg.net/tom/';
+    $api = 'removed';
     $json = fetchJsonFromEndpoint($api);
     $patientDataArray = [];
     foreach ($json as $patientData) {
